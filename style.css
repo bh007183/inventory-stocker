@@ -1,0 +1,13 @@
+#checkboxContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#imageInput{
+    display: flex;
+    justify-content: center;
+}
+#imageInput input{
+    height: 50px;
+    color: red;
+}
