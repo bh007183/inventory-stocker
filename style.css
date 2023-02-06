@@ -3,6 +3,9 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+img{
+    border-radius: 10px;
+}
 #imageInput{
     display: flex;
     justify-content: center;
@@ -10,4 +13,27 @@
 #imageInput input{
     height: 50px;
     color: red;
+}
+.delete{
+    background-color: red;
+    border-radius: 10px;
+}
+.deleteContainer{
+    display: flex;
+    justify-content: end;
+}
+
+.card{
+    width: 95%;
+    margin: 5px 0px 5px 0px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 1px;
+}
+#body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
